@@ -10,6 +10,9 @@ package cse360assignment02;
 // AddingMachine class returns the total of the addition and subtraction
 public class AddingMachine {
     private int total;
+    
+   
+    
 //Constructor
     public AddingMachine () {
         total = 0;  // not needed - included for clarity
@@ -20,7 +23,7 @@ public class AddingMachine {
     * @return total. returns the total of the sum/subtraction of the numbers
     */
     public int getTotal () {
-        return 0;
+        return total;
     }
 
     /**
@@ -29,6 +32,7 @@ public class AddingMachine {
      * @return none
      */
     public void add (int value) {
+        total = total + value;
     }
 
     /**
@@ -37,6 +41,7 @@ public class AddingMachine {
      * @return none
      */
     public void subtract (int value) {
+        total = total - value;
     }
 
     /**
@@ -45,7 +50,8 @@ public class AddingMachine {
      * @return a string
      */
     public String toString () {
-        return "";
+        String string = total + " " ;
+        return string;
     }
 
     /**
@@ -54,5 +60,6 @@ public class AddingMachine {
      * @return none
      */
     public void clear() {
+        System.gc();
     }
 }
