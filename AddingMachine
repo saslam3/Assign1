@@ -1,0 +1,58 @@
+/**
+ * The program adds/subtracts a sereis of numbers and
+ * displays the total
+ *
+ * @author   Saimah Aslam
+ * @version  1
+ * @since    2020-10-05
+ */
+package cse360assignment02;
+// AddingMachine class returns the total of the addition and subtraction
+public class AddingMachine {
+    private int total;
+//Constructor
+    public AddingMachine () {
+        total = 0;  // not needed - included for clarity
+    }
+    /**
+    * @method getTotal(). gets the total for the numbers added and subtracted
+    * @param none.
+    * @return total. returns the total of the sum/subtraction of the numbers
+    */
+    public int getTotal () {
+        return 0;
+    }
+
+    /**
+     * @method add. Adds the sum of the given integers
+     * @param value. Parameter of this method is an int assigned to value
+     * @return none
+     */
+    public void add (int value) {
+    }
+
+    /**
+     * @method subtract. Subtracts the given integers
+     * @param value. Parameter of this method is an int assigned to value
+     * @return none
+     */
+    public void subtract (int value) {
+    }
+
+    /**
+     * @method toString
+     * @param none
+     * @return a string
+     */
+    public String toString () {
+        return "";
+    }
+
+    /**
+     * @method clear
+     * @param none
+     * @return none
+     */
+    public void clear() {
+    }
+}
